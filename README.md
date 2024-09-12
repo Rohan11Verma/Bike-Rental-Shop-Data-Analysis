@@ -38,33 +38,33 @@ Conclusion:
 This project demonstrates how combining Python for EDA and SQL for database-driven analysis can help a business owner make data-driven decisions, uncover hidden trends, and optimize operations.
 
  Answered the following questions and generated insights to support the business using SQL queries
-# Q1: "fetch total number of customers"
+Q1: "fetch total number of customers"
 
-# 2. Emily would like to know how many bikes the shop owns by category.
+2. Emily would like to know how many bikes the shop owns by category.
 
-# 3. Emily needs a list of customer names with the total number of memberships purchased by each.
+3. Emily needs a list of customer names with the total number of memberships purchased by each.
 
-# Q4. "What is the average time for which each category of the bikes are rented?"
+Q4. "What is the average time for which each category of the bikes are rented?"
 
-# 5. Emily is working on a special offer for the winter months. Can you help her prepare a list of new rental prices?For each bike, display its ID, category, old price per hour (call this column old_price_per_hour ), discounted price per hour (call it new_price_per_hour ), old price per day (call it old_price_per_day ), and discounted price per day (call it new_price_per_day ).Electric bikes should have a 10% discount for hourly rentals and a 20% discount for daily rentals. Mountain bikes should have a 20% discount for hourly rentals and a 50% discount for daily rentals.All other bikes should have a 50% discount for all types of rentals.
+5. Emily is working on a special offer for the winter months. Can you help her prepare a list of new rental prices?For each bike, display its ID, category, old price per hour (call this column old_price_per_hour ), discounted price per hour (call it new_price_per_hour ), old price per day (call it old_price_per_day ), and discounted price per day (call it new_price_per_day ).Electric bikes should have a 10% discount for hourly rentals and a 20% discount for daily rentals. Mountain bikes should have a 20% discount for hourly rentals and a 50% discount for daily rentals.All other bikes should have a 50% discount for all types of rentals.
 
-# Q6. "Who has rented the most number of times?"
+Q6. "Who has rented the most number of times?"
 
-# Q7. "Which category of bike has been rented the most times?"
+Q7. "Which category of bike has been rented the most times?"
 
-# Q8. "Which category of bike has been rented the least times?"
+Q8. "Which category of bike has been rented the least times?"
 
-# Q9. "Which membership plan is the most popular?"
+Q9. "Which membership plan is the most popular?"
 
-# 10. Emily is looking for counts of the rented bikes and of the available bikes in each category.Display the number of available bikes (call this column available_bikes_count ) and the number of rented bikes (call this column rented_bikes_count ) by bike category.
+10. Emily is looking for counts of the rented bikes and of the available bikes in each category.Display the number of available bikes (call this column available_bikes_count ) and the number of rented bikes (call this column rented_bikes_count ) by bike category.
 
-# 11. Emily is preparing a sales report. She needs to know the total revenue from rentals by month, the total by year, and the all-time across all the years.Display the total revenue from rentals for each month, the total for each year, and the total across all the years. Do not take memberships into account. There should be 3 columns: year , month , and revenue . Sort the results chronologically. Display the year total after all the month totals for the corresponding year.
+11. Emily is preparing a sales report. She needs to know the total revenue from rentals by month, the total by year, and the all-time across all the years.Display the total revenue from rentals for each month, the total for each year, and the total across all the years. Do not take memberships into account. There should be 3 columns: year , month , and revenue . Sort the results chronologically. Display the year total after all the month totals for the corresponding year.
 
-# 12. Emily has asked you to get the total revenue from memberships for each combination of year, month, and membership type.Display the year, the month, the name of the membership type (call this column membership_type_name ), and the total revenue (call this column total_revenue ) for every combination of year, month, and membership type. Sort the results by year, month, and name of membership type.
+12. Emily has asked you to get the total revenue from memberships for each combination of year, month, and membership type.Display the year, the month, the name of the membership type (call this column membership_type_name ), and the total revenue (call this column total_revenue ) for every combination of year, month, and membership type. Sort the results by year, month, and name of membership type.
 
-# 13. Next, Emily would like data about memberships purchased in 2023, with subtotals and grand totals for all the different combinations of membership types and months.Display the total revenue from memberships purchased in 2023 for each combination of month and membership type. There should be 3 columns: membership_type_name , month , and total_revenue .Sort the results by membership type name alphabetically and then chronologically by month.
+13. Next, Emily would like data about memberships purchased in 2023, with subtotals and grand totals for all the different combinations of membership types and months.Display the total revenue from memberships purchased in 2023 for each combination of month and membership type. There should be 3 columns: membership_type_name , month , and total_revenue .Sort the results by membership type name alphabetically and then chronologically by month.
 
-# 14. Customer Segementation :-Emily wants to segment customers based on the number of rentals and see the count of customers in each segment.
+14. Customer Segementation :-Emily wants to segment customers based on the number of rentals and see the count of customers in each segment.
 Categorize customers based on their rental history as follows:
 Customers who have had more than 10 rentals are categorized as 'more than 10' .
 Customers who have had 5 to 10 rentals (inclusive) are categorized as 'between 5 and 10' .
