@@ -37,24 +37,25 @@ MySQL Workbench for SQL-based querying and deeper insights.
 Conclusion:
 This project demonstrates how combining Python for EDA and SQL for database-driven analysis can help a business owner make data-driven decisions, uncover hidden trends, and optimize operations.
 
- Answered the following questions and generated insights to support the business using SQL queries
-Q1: "fetch total number of customers"
+ Answered the following questions and generated insights to support the business using SQL queries.
+ 
+1: "fetch total number of customers"
 
 2. Emily would like to know how many bikes the shop owns by category.
 
 3. Emily needs a list of customer names with the total number of memberships purchased by each.
 
-Q4. "What is the average time for which each category of the bikes are rented?"
+4. "What is the average time for which each category of the bikes are rented?"
 
 5. Emily is working on a special offer for the winter months. Can you help her prepare a list of new rental prices?For each bike, display its ID, category, old price per hour (call this column old_price_per_hour ), discounted price per hour (call it new_price_per_hour ), old price per day (call it old_price_per_day ), and discounted price per day (call it new_price_per_day ).Electric bikes should have a 10% discount for hourly rentals and a 20% discount for daily rentals. Mountain bikes should have a 20% discount for hourly rentals and a 50% discount for daily rentals.All other bikes should have a 50% discount for all types of rentals.
 
-Q6. "Who has rented the most number of times?"
+6. "Who has rented the most number of times?"
 
-Q7. "Which category of bike has been rented the most times?"
+7. "Which category of bike has been rented the most times?"
 
-Q8. "Which category of bike has been rented the least times?"
+8. "Which category of bike has been rented the least times?"
 
-Q9. "Which membership plan is the most popular?"
+9. "Which membership plan is the most popular?"
 
 10. Emily is looking for counts of the rented bikes and of the available bikes in each category.Display the number of available bikes (call this column available_bikes_count ) and the number of rented bikes (call this column rented_bikes_count ) by bike category.
 
